@@ -1,0 +1,33 @@
+body{
+    footer{
+        width: 100%;
+        margin: 10px;
+        bottom: 0;
+        left: 0;
+        padding: 2rem 8%;
+        background-color: rgb(240, 216, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+            .logo-footer{
+                height: 80px;
+                margin-bottom: 1rem;
+            .contenedor-social-link, .footer-menu-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-bottom: 1rem;
+            .social-icon{
+                width: 20%;
+                border-radius: 1px solid #ffffff;
+                margin: 10rem;
+                margin-bottom: 20px;
+            }
+            }
+        }
+    }
+}
+
+    

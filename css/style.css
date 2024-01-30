@@ -1,3 +1,80 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
 
+body footer {
+  width: 100%;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: rgb(240, 216, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body footer .logo-footer {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+body footer .logo-footer .contenedor-social-link, body footer .logo-footer .footer-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+body footer .logo-footer .contenedor-social-link .social-icon, body footer .logo-footer .footer-menu-container .social-icon {
+  width: 20%;
+  border-radius: 1px solid #ffffff;
+  margin: 10rem;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 15px;
+  color: red;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleInterval {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+#carouselExampleInterval #ultimos-lanzamientos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-front {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenedor-front .contenedor-tarjetas-front {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+.container {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

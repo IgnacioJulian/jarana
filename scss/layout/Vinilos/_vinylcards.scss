@@ -1,0 +1,15 @@
+body{
+.contenedor-vinilos{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    }
+    }
+}
+
+// no puedo ponerle display flex a donde estarian las cards con vinilos

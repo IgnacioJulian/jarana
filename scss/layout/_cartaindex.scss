@@ -1,0 +1,15 @@
+.contenedor-front{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    .contenedor-tarjetas-front{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
