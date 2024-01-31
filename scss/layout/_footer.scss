@@ -1,33 +1,29 @@
-body{
-    footer{
-        width: 100%;
-        margin: 10px;
-        bottom: 0;
-        left: 0;
-        padding: 2rem 8%;
-        background-color: rgb(240, 216, 0);
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    background-color: rgb(240, 216, 0);
+    padding: 10px; // Ajusta según sea necesario para dar espacio alrededor de los elementos en el pie de página
+
+    .logo-footer {
+        width: 80px; // Ajusta el ancho según sea necesario
+        height: auto; // Mantiene la proporción de la imagen
+        margin-bottom: 20px; // Ajusta según sea necesario para dar espacio entre la imagen y los íconos sociales
+    }
+
+    .contenedor-social-link {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-            .logo-footer{
-                height: 80px;
-                margin-bottom: 1rem;
-            .contenedor-social-link, .footer-menu-container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-wrap: wrap;
-                margin-bottom: 1rem;
-            .social-icon{
-                width: 20%;
-                border-radius: 1px solid #ffffff;
-                margin: 10rem;
-                margin-bottom: 20px;
-            }
+        gap: 40px; // Ajusta el espacio entre los íconos sociales
+
+    .social-icon {
+        img {
+            width: 30px; // Ajusta el tamaño de los íconos sociales según sea necesario
+            height: auto; // Mantiene la proporción de los íconos
             }
         }
     }
 }
-
-    

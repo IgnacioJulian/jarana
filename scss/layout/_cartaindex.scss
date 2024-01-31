@@ -1,21 +1,28 @@
-#contenedor-cartas-index{
-    h2{
+$color-titulos:rgb(71, 71, 71);
+$size-h2: 30px;
+
+.titulo-consigue-lo-ultimo{
+        margin-top: 60px;
         text-align: center;
-        color: red;
-    }
-    .contenedor-front{
-        margin-top: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        .contenedor-tarjetas-front{
-        display: flex;
-        flex-wrap: wrap;
-        }
-    }
-    .card{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px;
-        justify-content: center;
-    }
+        color: $color-titulos;
+        font-size: $size-h2;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px ;
+}
+#ultimos-lanzamientos {
+  // Estilos para la sección de últimos lanzamientos
+}
+
+.contenedor-tarjetas-front {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    // Centra las tarjetas horizontalmente
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
 }

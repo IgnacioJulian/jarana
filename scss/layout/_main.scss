@@ -1,39 +1,40 @@
-$color:red;
-$size-h2: 250px;
+$color-titulos:rgb(71, 71, 71);
+$size-h2: 30px;
 
 main{
-h2{
-    text-align: center;
-    font-size: 200px;
-    color: $color;
-    font-size: $size-h2;
-}
-.carousel-inner{
-    max-height: 200px;
-}
-.container-fluid{
-    .carousel-item{
-        width: 60%;
-        max-height: 200px;
-        display: flex;
-        justify-content: center;
+    width: 100%;
+    .titulos{
+        margin-top: 40px;
+        text-align: center;
+        color: $color-titulos;
+        font-size: $size-h2;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px ;
+
+    }
+        .carousel-inner{
+            max-height: 700px;
+    }
+        .container-fluid{
+        .carousel-item{
+            width: 60%;
     }
     
 }    
-#carouselExampleInterval{
-        margin-top: 50px;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        max-height: 200px;
-//no puedo centrar este contenido, perdi mucho tiempo intentandolo
+        #carouselExampleInterval{
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            max-height: 200px;
 
-    #ultimos-lanzamientos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        max-height: 200px;
+        #ultimos-lanzamientos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            max-height: 200px;
         }
     }
 }

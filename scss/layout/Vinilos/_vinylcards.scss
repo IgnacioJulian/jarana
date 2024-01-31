@@ -1,13 +1,32 @@
-body{
-.contenedor-vinilos{
-    display: flex;
-    justify-content: center;
-    height: 500px;
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    justify-content: center;
+$color-titulos:rgb(71, 71, 71);
+$size-h2: 30px;
+
+body {
+    .titulo-vinilos {
+      margin-top: 40px;
+      text-align: center;
+      color: $color-titulos;
+      font-size: $size-h2;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      margin-bottom: 30px;
+      @extend .titulos;
     }
+  
+    .contenedor-vinilos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+  
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: center;
+        max-width: 100%;  // Asegura que las tarjetas no superen el ancho del contenedor
+        width: calc(33.33% - 20px);  // Ajusta según sea necesario para el diseño deseado
+        margin-bottom: 20px;
+      }
     }
-}
+  }

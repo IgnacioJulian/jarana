@@ -1,0 +1,15 @@
+.banner-publicidad-vinilo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 85, 24);
+    width: 100%;
+    margin-bottom: 20px;
+  
+    .texto-banner {
+      display: flex;
+      align-items: center;  // Centra verticalmente
+      justify-content: center;  // Centra horizontalmente
+      text-align: center;
+      color: rgb(255, 255, 255);
+    }
+  }
