@@ -27,6 +27,18 @@ body {
         max-width: 100%;  // Asegura que las tarjetas no superen el ancho del contenedor
         width: calc(33.33% - 20px);  // Ajusta según sea necesario para el diseño deseado
         margin-bottom: 20px;
+        .texto-banner {
+            display: flex;
+            align-items: center;  // Centra verticalmente
+            justify-content: center;  // Centra horizontalmente
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 10px;
+          }
       }
     }
   }

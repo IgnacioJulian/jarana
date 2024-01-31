@@ -122,6 +122,18 @@ body .contenedor-vinilos .card {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
 }
+body .contenedor-vinilos .card .texto-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
 
 .banner-publicidad-vinilo {
   display: flex;
@@ -136,6 +148,39 @@ body .contenedor-vinilos .card {
   justify-content: center;
   text-align: center;
   color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.contenedor-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-banner-moda {
+  display: flex;
+  max-width: 60%;
+  height: auto;
+  justify-content: center;
+}
+.imagen-banner-moda .foto-banner {
+  display: flex;
+  width: 60%;
+  height: auto;
+  justify-content: center;
+}
+
+.texto-banner2 {
+  text-align: center;
+  margin: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */

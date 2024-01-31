@@ -1,0 +1,26 @@
+.contenedor-banner {
+    display: flex;  // Utiliza flexbox para organizar los elementos en el contenedor
+    align-items: center;
+    justify-content: center;
+}
+.imagen-banner-moda {
+    display: flex;
+    max-width: 60%;  
+    height: auto;
+    justify-content: center;     
+
+    .foto-banner {
+      display: flex;  // Elimina el espacio adicional debajo de la imagen
+      width: 60%;     // Hace que la imagen ocupe el 100% del ancho disponible
+        height: auto;
+        justify-content: center;     
+    }
+}
+.texto-banner2 {
+    text-align: center;
+    margin: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+}
