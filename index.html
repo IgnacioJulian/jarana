@@ -9,6 +9,7 @@
 </head>
 <body>
     <!-- Navbar responsive -->
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -38,17 +39,17 @@
             </div>
         </div>
     </nav>
-    
+    </header>
     <!-- MAIN=Ultimos lanzamientos -->
 
-    <main class="container-fluid .translate middle" id="ultimos-lanzamientos">
+    <main class="container .translate middle" id="ultimos-lanzamientos">
         <h2 class="titulos">Ultimos lanzamientos</h2>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval .translate middle height 200px" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active" data-bs-interval="100">
                     <img src="assets/kraft.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="200">
                     <img src="assets/sup.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -68,7 +69,8 @@
 
     <!-- Cartas con los ultimos lanzamientos -->
 
-    <h2>Consigue lo ultimo!</h2>
+    <section class="container-fluid" id="contenedor-cartas-index">
+    <h2 class="titulos">Consigue lo ultimo!</h2>
     <div class="contenedor-front">
         <div class="contenedor-tarjetas-front">
             <div class="card" style="width: 13rem;">
@@ -104,8 +106,8 @@
                 </div>
             </div>
         </div>
-
-    </div>
+        </div>
+    </section>
     
     <!-- Footer -->
     <footer>
