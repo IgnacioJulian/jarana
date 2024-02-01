@@ -24,13 +24,13 @@ body {
         flex-wrap: wrap;
         margin: 10px;
         justify-content: center;
-        max-width: 100%;  // Asegura que las tarjetas no superen el ancho del contenedor
-        width: calc(33.33% - 20px);  // Ajusta según sea necesario para el diseño deseado
+        max-width: 100%;  
+        width: calc(33.33% - 20px);  
         margin-bottom: 20px;
         .texto-banner {
             display: flex;
-            align-items: center;  // Centra verticalmente
-            justify-content: center;  // Centra horizontalmente
+            align-items: center;  
+            justify-content: center;  
             text-align: center;
             color: rgb(255, 255, 255);
             font-size: 20px;
