@@ -11,12 +11,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
-  bottom: 0;
-  left: 0;
   justify-content: center;
+  min-width: 100%;
   background-color: rgb(240, 216, 0);
   padding: 10px;
+  margin-top: auto;
 }
 footer .logo-footer {
   width: 80px;
@@ -30,6 +29,9 @@ footer .contenedor-social-link {
 footer .contenedor-social-link .social-icon img {
   width: 30px;
   height: auto;
+}
+footer .copyright-text {
+  font-size: 12px;
 }
 
 main {
@@ -155,32 +157,79 @@ body .contenedor-vinilos .card .texto-banner {
   margin-top: 10px;
 }
 
-.contenedor-banner {
+.banner-moda {
+  width: 100%;
+}
+
+.contenedor-banner-moda,
+.contenedor-banner-moda2 {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-banner-moda .foto-banner,
+.contenedor-banner-moda .foto-banner2,
+.contenedor-banner-moda2 .foto-banner,
+.contenedor-banner-moda2 .foto-banner2 {
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-banner-moda .foto-banner img,
+.contenedor-banner-moda .foto-banner2 img,
+.contenedor-banner-moda2 .foto-banner img,
+.contenedor-banner-moda2 .foto-banner2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor-banner-moda2 .foto-banner2 {
+  width: 50%;
+}
+.contenedor-banner-moda2 .texto-banner2 {
+  max-width: 500px;
+  text-align: right;
+  margin: 1px 60px 60px 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .banner-moda {
+    display: none;
+  }
+}
+.contenedor-merchandising {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.contenedor-merchandising .card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  max-width: 100%;
+  width: calc(33.33% - 20px);
+}
+.contenedor-merchandising .card .texto-banner {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.imagen-banner-moda {
-  display: flex;
-  max-width: 60%;
-  height: auto;
-  justify-content: center;
-}
-.imagen-banner-moda .foto-banner {
-  display: flex;
-  width: 60%;
-  height: auto;
-  justify-content: center;
-}
-
-.texto-banner2 {
   text-align: center;
-  margin: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
   text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

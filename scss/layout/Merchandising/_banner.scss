@@ -1,26 +1,47 @@
-.contenedor-banner {
-    display: flex;  // Utiliza flexbox para organizar los elementos en el contenedor
-    align-items: center;
-    justify-content: center;
+.banner-moda {
+    width: 100%;
 }
-.imagen-banner-moda {
-    display: flex;
-    max-width: 60%;  
-    height: auto;
-    justify-content: center;     
 
-    .foto-banner {
-      display: flex;  // Elimina el espacio adicional debajo de la imagen
-      width: 60%;     // Hace que la imagen ocupe el 100% del ancho disponible
+.contenedor-banner-moda,
+.contenedor-banner-moda2 {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+    .foto-banner,
+    .foto-banner2 {
+        display: flex;
+        width: 50%;
         height: auto;
-        justify-content: center;     
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
-.texto-banner2 {
-    text-align: center;
-    margin: 60px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    text-transform: uppercase;
+
+.contenedor-banner-moda2 {
+    .foto-banner2 {
+        width: 50%;
+    }
+
+    .texto-banner2 {
+        max-width: 500px;
+        text-align: right;
+        margin: 1px 60px 60px 60px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 767px) {
+    .banner-moda {
+        display: none;
+    }
 }
