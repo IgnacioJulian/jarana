@@ -232,4 +232,51 @@ body .contenedor-vinilos .card .texto-banner {
   margin-top: 10px;
 }
 
+.slide-exclusivos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.slide-exclusivos #carouselExampleControls {
+  width: 750px;
+  height: 320px;
+}
+.slide-exclusivos #carouselExampleControls h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+.slide-exclusivos #carouselExampleControls h1 .parrafo-exclusivos {
+  max-width: 150px;
+}
+.slide-exclusivos #carouselExampleControls .carousel-inner .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cartas-exclusivos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 250px;
+}
+.cartas-exclusivos .parrafo-exclusivos {
+  max-width: 150px;
+  text-align: center;
+  background-color: red;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  justify-content: center;
+  max-width: 100%;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

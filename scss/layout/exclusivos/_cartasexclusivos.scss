@@ -1,0 +1,20 @@
+.cartas-exclusivos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 250px;
+    .parrafo-exclusivos{
+        max-width: 150px;
+        text-align: center;
+        background-color: red;
+    }
+}
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        justify-content: center;
+        max-width: 100%;  
+        width: calc(33.33% - 20px);  
+        margin-bottom: 20px;
+    }
