@@ -1,3 +1,15 @@
+$color-principal: rgb(162, 0, 255);
+$size-h2: 30px;
+
+#titulo-exclusivos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
 .cartas-exclusivos {
     display: flex;
     flex-wrap: wrap;
@@ -5,10 +17,16 @@
     margin-top: 250px;
     .parrafo-exclusivos{
         max-width: 150px;
+        display: flex;
         text-align: center;
-        background-color: red;
-    }
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        background-color: $color-principal;
+        margin-left: 20px;
+        flex-wrap: wrap;
 }
+    }
+
     .card {
         display: flex;
         flex-wrap: wrap;
@@ -17,4 +35,10 @@
         max-width: 100%;  
         width: calc(33.33% - 20px);  
         margin-bottom: 20px;
+    }
+    .caja-video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 50px;
     }

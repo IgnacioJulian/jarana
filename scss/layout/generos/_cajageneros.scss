@@ -1,0 +1,23 @@
+.contenedor-generos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+    
+    .card {
+        margin: 10px;
+        flex: 1 1 300px; 
+        max-width: 300px; 
+
+        .big-banner {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            flex-wrap: wrap; /* Para garantir que os itens se ajustem corretamente */
+            margin-top: 100px;
+            max-width: 100%; /* Certifique-se de que o banner não ultrapasse a largura máxima da carta */
+            margin-bottom: 50px;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 body {
@@ -257,6 +258,16 @@ body .contenedor-vinilos .card .texto-banner {
   height: auto;
 }
 
+#titulo-exclusivos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-weight: 700;
+  margin: 20px;
+}
+
 .cartas-exclusivos {
   display: flex;
   flex-wrap: wrap;
@@ -265,8 +276,13 @@ body .contenedor-vinilos .card .texto-banner {
 }
 .cartas-exclusivos .parrafo-exclusivos {
   max-width: 150px;
+  display: flex;
   text-align: center;
-  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgb(162, 0, 255);
+  margin-left: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -277,6 +293,35 @@ body .contenedor-vinilos .card .texto-banner {
   max-width: 100%;
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
+}
+
+.caja-video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px;
+}
+
+.contenedor-generos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.contenedor-generos .card {
+  margin: 10px;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+.contenedor-generos .card .big-banner {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-wrap: wrap; /* Para garantir que os itens se ajustem corretamente */
+  margin-top: 100px;
+  max-width: 100%; /* Certifique-se de que o banner não ultrapasse a largura máxima da carta */
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
