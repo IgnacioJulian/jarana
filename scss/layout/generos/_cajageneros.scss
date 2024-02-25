@@ -10,7 +10,7 @@
         flex: 1 1 300px; 
         max-width: 300px; 
 
-        .big-banner {
+        .container.fluid {
             display: flex;
             justify-content: center; /* Centraliza horizontalmente */
             align-items: center; /* Centraliza verticalmente */

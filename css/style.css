@@ -314,7 +314,7 @@ body .contenedor-vinilos .card .texto-banner {
   flex: 1 1 300px;
   max-width: 300px;
 }
-.contenedor-generos .card .big-banner {
+.contenedor-generos .card .container.fluid {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
